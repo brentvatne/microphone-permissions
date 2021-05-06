@@ -4,6 +4,13 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '11.0'
 
+# Compile this from source rather than using prebuilt xcframework.
+# Alternatively, set the `EXPO_USE_SOURCE=0` env var to disable prebuilds for
+# all modules.
+$ExpoUseSources = [
+  'expo-barcode-scanner',
+]
+
 target 'MicrophonePermissions' do
   use_unimodules!
   config = use_native_modules!
