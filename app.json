@@ -1,0 +1,12 @@
+{
+  "name": "MicrophonePermissions",
+  "displayName": "MicrophonePermissions",
+  "expo": {
+    "name": "MicrophonePermissions",
+    "slug": "MicrophonePermissions",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
